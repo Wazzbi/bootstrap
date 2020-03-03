@@ -4,7 +4,9 @@
   </div>
 
   <div class="jumbotron">
-    <p>icon: <span class="glyphicon glyphicon-star"></span></p>
+    <button class="btn" (click)="changeIcon()">
+      <span [class]="iconClass"></span>
+    </button>
     <button type="button" class="btn btn-primary">Primary</button>
   </div>
 </div>

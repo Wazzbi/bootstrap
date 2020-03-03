@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bootstrapTrial';
+  clicked = false;
+  iconClass = 'glyphicon glyphicon-star-empty';
+
+  changeIcon() {
+    const icon =
+      this.iconClass === 'glyphicon glyphicon-star-empty'
+        ? 'glyphicon glyphicon-star'
+        : 'glyphicon glyphicon-star-empty';
+    this.iconClass = icon;
+  }
 }

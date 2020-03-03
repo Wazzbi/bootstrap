@@ -1,5 +1,7 @@
 # BootstrapTrial
 
+Most important to remember is setup in index.html. Then easly follow instruction at https://getbootstrap.com/ or like here https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp. gl hf
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
 ## Development server
